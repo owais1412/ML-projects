@@ -3,6 +3,7 @@ import numpy as np
 from sklearn import linear_model, model_selection
 import matplotlib.pyplot as pyplot
 import pickle
+import tensorflow as tf
 from matplotlib import style
 
 
