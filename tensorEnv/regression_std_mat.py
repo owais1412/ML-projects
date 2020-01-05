@@ -39,7 +39,7 @@ for x in range(len(predictions)):
     print(predictions[x], x_test[x], y_test[x])
 
 style.use("ggplot")
-p = "G1"
+p = "absences"
 pyplot.scatter(data[p], data[predict])
 pyplot.xlabel(p)
 pyplot.ylabel("Final Grade")
